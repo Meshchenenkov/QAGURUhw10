@@ -3,8 +3,6 @@ from allure_commons.types import Severity
 from selene import browser, by, have, be
 from selene.support.shared.jquery_style import s
 
-#from pages.search_issue import Issue
-
 repository = 'eroshenkoam/allure-playwright-example'
 actual_text = 'Не работает переход по табу Issues'
 path_directory = 'Meshchenenkov/QAGURUhw5'
